@@ -11,7 +11,7 @@
 			<tr>
 				<td>비밀번호</td>
 				<td>
-				<input type="hidden" name="no" value="${requestScope.guestId }">
+				<input type="hidden" name="guestId" value="${requestScope.guestId }">
 				<input type="password" name="pw"></td>
 				<td><button type="submit">삭제</button></td>
 			</tr>
